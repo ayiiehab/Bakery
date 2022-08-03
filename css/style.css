@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin:0px ;
+    padding: 0px;
+}
+.home{
+   background-image: url(../image/drew-coffman-1872.jpg); 
+   background-size: 100% 100%;
+   height: 700px;
+   overflow: hidden;
+}
+.caption{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+
+}
+.caption h1{
+    font-family: "Alegreya";
+    font-size: 73px;
+    font-weight: 500;
+
+}
+.caption p {
+    font-size: 20px;
+    margin: 20px;
+}
+.caption a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btns{
+    margin-top: 30px;
+}
+.caption .btn1{
+   background-color: #8e7754;
+   border: none;
+}
+
+
+.nav {
+  
+    height: 70;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+
+    
+}
+.nav ul li {
+    color: rgb(240, 238, 238);
+    float: left;
+    padding: 15px;
+    font-size: 18px;
+}
+.nav ul li:hover{
+    color:#8e7754 ;
+}
+.nav img {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.section-one{
+    overflow: hidden;
+    margin: 100px;
+}
+
+.section-one .food{
+    width: 40%;
+    float: left;
+    
+}
+.section-one .food img{
+    width: 100%;
+}
+.section-one .content{
+    width: 60%;
+    margin:auto  ;
+    margin-top: 30px;
+    margin-left: 605;
+    padding: 60px;
+}
+
+.section-one h2 ,.loction h2 , .baking h2 , .contact h2 ,.about h2 , .special h2 ,.open h2 ,.connect h2{
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+        font-size: 32px;
+}
+.section-one p ,.loction p , .baking p , .contact p ,.about p ,.special p ,.open p ,.connect p {
+    color: #868686;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.icons{
+    overflow: hidden;
+    margin: 10px;
+
+}
+.iconn i{
+    margin-left: 140px;
+    border-radius: 50%;
+    background-color: #fff;
+   color:#8e7754 ;
+    font-size: 30px;
+    float: left;
+    padding: 7px;
+    margin: 5px;
+    margin-left: 140px;
+
+   border: 1px solid rgb(201, 200, 200);
+    
+}
+.iconn .fa-users{
+    font-size: 28px;
+}
+.iconn i:hover{
+    color: #fff;
+    background-color:#8e7754 ;
+}
+.icon-data p {
+    padding: 10px 50px;
+    margin: 10px;
+
+}
+
+.loction{
+    background-color: rgb(238, 238, 238);
+    height: 500px;
+    overflow: hidden;
+}
+.loction .content{
+    float: left;
+    width: 60%;
+    margin:auto  ;
+    padding: 80px;
+    
+}
+
+.loction p ,.loction h2 {
+    margin: 40px;
+}
+
+.loction .baker{
+    width: 40%;
+    float: right;
+    
+}
+.loction img {
+    width: 100%;
+    padding: 25px;
+    
+}
+.meals{
+    margin: 70px;
+    overflow: hidden;
+  
+}
+.meals .baking{
+    text-align: center;
+    
+
+}
+.baking p{
+    margin: 1px;
+}
+.meals .meal-one{
+    width: 32%;
+    padding: 40px;
+    text-align: center;
+    float: left;
+}
+
+.meals img{
+    padding: 15px;
+    width: 100%;
+    
+}
+.meal-one h2{
+padding: 17px;
+font-weight: 400;
+font-size: 22px;
+
+}
+
+.meal-one p {
+    padding: 15px;
+  color: #868686;
+  line-height: 1.7;
+
+}
+
+.contact{
+    overflow: hidden;
+    background-color: rgb(238, 238, 238);
+    height: 600px;
+
+}
+
+.contact .info{
+    width: 60%;
+    float: left;
+    padding: 100px;
+    
+}
+
+.contact .map{
+    width: 40%;
+    float: right;
+    padding: 30px;
+   
+
+}
+.contact .info  i {
+    color: #fff;
+    background-color:#8e7754 ;
+    font-size: 28px;
+    float: left;
+   border-radius: 50%;
+   padding: 8px;
+}
+.contact .info  i:hover{
+    background-color: #fff;
+    color:#8e7754 ;
+
+} 
+.data{
+    overflow: hidden;
+    background-color:#424140;
+    height: 500px;
+    color: #797979;
+}
+.data .about{
+    width: 25%;
+    float: left;
+    padding: 90px;
+    padding-left: 120px;
+    
+}
+.about p{
+    font-size: 16px;
+    width: 100%;
+}
+
+.data .about h2 , .special h2 , .open h2 ,.connect h2{
+    font-size: 17px; 
+    color: #fff;
+}
+.data .special {
+    width: 25%;
+    float: left;
+    padding: 90px 20px;
+}
+.special h2 ,.open h2 ,.connect h2{
+    margin-left: 23px;}
+.special ul ,.open ul ,.connect ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.special ul li  ,.open ul li ,.connect ul li{
+    margin: 15px;
+}
+
+ .brdr{
+    width: 60%;
+    height: 0.1px;
+    background-color: #7978785d;
+    margin-left: 50px;
+}
+.data .open{
+    width: 25%;
+    float: left;
+    padding: 90px;
+    padding-left: 0px;
+}
+.data .connect{
+    width: 25%;
+    float: left;
+    padding: 90px;
+    padding-left: 0px;
+}
+.connect i{
+    float: left;
+    margin:  0px 5px;
+    font-size: 20px;
+    color: #797979;
+}
+.connect i:hover{
+    color: #fff;
+}
+
+
+.footer{
+    background-color: #353330;
+    height: 250px;
+    overflow: hidden;
+
+
+}
+
+.foot{
+    text-align: center;
+    margin:  30px auto;
+    width: 50%;
+}
+.foot p {
+    color: #777;
+    margin: 15px;
+} 
+.foot  .social i{
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 20px;
+    color: #fff;
+}
+.foot .fa-facebook:hover{
+    color: rgb(46, 86, 139);
+}
+.foot .fa-linkedin:hover{
+    color: #0a66c2;
+}.foot .fa-twitter-square:hover{
+    color:rgba(29,161,242,1.00);
+}.foot .fa-at:hover{
+    color: rgb(139, 46, 46);
+}
+
+@media all and (max-width:800px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+
+.nav ul{
+    margin-top: -40px;
+}
+.nav img{
+    margin-left: 5px;
+}
+.section-one .food, .loction .content ,.contact .info{
+    width: 100%;
+    float: none;
+}
+.section-one .content 
+{
+    width: 100%;
+    float: none;
+}
+
+.data .about ,.data .open ,.data .special , .data .connect  {
+    font-size: 10px;
+    line-height: 0.8;
+    padding: 10px;
+}
+
+
+
+}
